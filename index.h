@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Faani Bhai | Official Website</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d') center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+h1 { font-size: 50px; margin: 0; }
+p { color: #ccc; }
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 600px;
+  border-radius: 12px;
+}
+
+/* LINKS */
+.links a {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 15px;
+  background: #ff004f;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+/* GALLERY */
+.gallery img {
+  width: 180px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+/* BUTTON */
+.btn {
+  background: #ff004f;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+<div class="overlay"></div>
+<div class="hero-content">
+  <h1>Faani Bhai</h1>
+  <p>🎧 Singer | Songwriter | Composer | Music Producer</p>
+  <p>Music is not just my passion — it’s my identity.</p>
+</div>
+</div>
+
+<!-- ABOUT -->
+<section>
+<h2>About Me</h2>
+<div class="card">
+I create music that connects emotions, stories and souls 🎵  
+Welcome to my official world ❤️
+</div>
+</section>
+
+<!-- LINKS -->
+<section>
+<h2>Connect With Me</h2>
+<div class="links">
+  <a href="#">YouTube</a>
+  <a href="#">TikTok</a>
+  <a href="#">Instagram</a>
+  <a href="#">X (Twitter)</a>
+  <a href="#">Facebook</a>
+</div>
+</section>
+
+<!-- SONGS -->
+<section>
+<h2>My Music</h2>
+
+<div class="card">
+🎵 Song Title 1 — Coming Soon  
+<br><br>
+<a class="btn" href="#">Listen / Watch</a>
+</div>
+
+<div class="card">
+🎵 Song Title 2 — Coming Soon  
+<br><br>
+<a class="btn" href="#">Listen / Watch</a>
+</div>
+
+</section>
+
+<!-- CAMPAIGN POSTS -->
+<section>
+<h2>Latest Updates / Campaigns</h2>
+
+<div class="card">
+🔥 New song coming soon... stay tuned 🎧
+</div>
+
+<div class="card">
+🎬 Behind the scenes of my next release 🎵
+</div>
+
+</section>
+
+<!-- GALLERY -->
+<section>
+<h2>Gallery</h2>
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4">
+<img src="https://images.unsplash.com/photo-1521334884684-d80222895322">
+<img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81">
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<section>
+<p style="color:#777;">© 2026 Faani Bhai | All Rights Reserved</p>
+</section>
+
+</body>
+</html>
